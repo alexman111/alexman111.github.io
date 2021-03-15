@@ -22,6 +22,7 @@ body {
 .header .header__link {
     color: #DBDBDB;
     font-weight: 300;
+    text-decoration: none;
 }
 
 .header .header__link:last-child {
