@@ -69,7 +69,9 @@ body {
     font-size: 24px;
     overflow: hidden;
     width: 100%;
+    margin-bottom: 35px;
 }
+
 .form {
     display: flex;
     flex-direction: column;
@@ -86,14 +88,60 @@ body {
     line-height: 70px;
 }
 
-.form input {
-    margin-bottom: 35px;
+.form .form__content {
+    display: flex;
+    margin-bottom: 50px;
+    border: 3px solid #16C0FD;
+    border-radius: 54px;
+    font-weight: 200;
+    background: none;
+    outline: none;
+    color: #F3F2FA;
+    padding: 30px 40px;
+    font-size: 18px;
+    overflow: hidden;
+    width: 100%;
 }
 
-.form textarea {
-    margin-bottom: 50px;
-    height: 140px;
-    resize: none;
+.form .form__content .button {
+    margin-top: 33px;
+    border-radius: 29px;
+    border: 3px solid #16C0FD;
+    width: 166px;
+    height: 26px;
+    font-size: 14px;
+    padding: 0px 20px;
+    line-height: 16px;
+    color: #16C0FD;
+    font-weight: 300;
+}
+
+.form .form__radio {
+    display: block;
+    margin-left: 46px;
+}
+
+.form .form__question {
+    display: block;
+}
+
+.form .form__input {
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-top: -6px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #16C0FD;
+    color: #F3F2FA;
+    overflow: hidden;
+    width: 219px;
+    padding: 3px;
+}
+
+.form .form__answer {
+    margin-top: 55px;
+    display: flex;
 }
 
 .form .form__buttons {
@@ -101,5 +149,5 @@ body {
 }
 
 .form .form__buttons .button:first-child {
-    margin-right: 22px;
+    margin-right: 25px;
 }
