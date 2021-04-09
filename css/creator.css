@@ -89,7 +89,6 @@ body {
 }
 
 .form .form__content {
-    display: flex;
     margin-bottom: 50px;
     border: 3px solid #16C0FD;
     border-radius: 54px;
@@ -119,6 +118,7 @@ body {
 .form .form__radio {
     display: block;
     margin-left: 46px;
+    cursor: pointer;
 }
 
 .form .form__question {

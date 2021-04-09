@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Online Quiz</title>
     <link rel="stylesheet" href="./css/create.css">
@@ -13,25 +14,28 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  </head>
-  <body>
+    <script src="js/create.js"></script>
+</head>
+
+<body>
     <header class="container">
         <div class="header">
             <a class="header__logo" href="home.html">
                 <img src="./images/logo.svg" alt="Logo">
-              </a>
+            </a>
             <a class="header__link" href="create.html">Create</a>
             <a class="header__link" href="creator.html">Play</a>
             <a class="header__link" href="quizes.html">My Quizes</a>
         </div>
     </header>
     <section class="container">
-        <form class="form">
+        <form class="form" id="questForm">
             <h1 class="form__title">Lets start!</h1>
-            <input placeholder="Name" class="input">
-            <textarea placeholder="Description" class="input"></textarea>
+            <input placeholder="Name" class="input" id="questName">
+            <textarea placeholder="Description" class="input" id="questDescription"></textarea>
             <button class="button">Create</button>
         </form>
     </section>
-  </body>
+</body>
+
 </html>
