@@ -10,10 +10,8 @@ window.onload = () => {
 
         newQuiz.innerHTML = `   
             <div class="quiz__description">             
-                <p>${quest.questName}</p>
                 <p>${quest.questDescription}</p>
             </div>
-        
         `
         mainContent.appendChild(newQuiz)
     }

@@ -1,11 +1,14 @@
 .quiz__description {
     border: 3px solid #16C0FD;
     border-radius: 54px;
-    padding: 30px 40px;
+    padding: 80px 80px;
     font-size: 24px;
     overflow: hidden;
     width: 100%;
     margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quiz__description:hover {
