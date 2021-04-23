@@ -10,7 +10,7 @@ window.onload = () => {
         newChoice.innerHTML = `                 
             <p>${++numberChoices}.&nbsp;</p>
             <input class="form__input">
-            <input type="radio" class="form__radio">
+            <input type="radio" class="form__radio" name="radioAnswer">
         `
         newChoice.classList.add('form__answer')
 
@@ -48,7 +48,7 @@ window.onload = () => {
         const questName = JSON.parse(localStorage.getItem("CURRENT_QUEST")).questName
         const questDescription = JSON.parse(localStorage.getItem("CURRENT_QUEST")).questDescription
         questInfo = { questName, questDescription, questions }
-        let quests = localStorage.getItem("QUESTS")
+        let quests = JSON.parse(localStorage.getItem("QUESTS"))
 
         if (quests === null) {
             quests = []
@@ -56,6 +56,8 @@ window.onload = () => {
         quests.push(questInfo)
 
         localStorage.setItem("QUESTS", JSON.stringify(quests))
+
+        window.location.href = "./home.html";
 
     })
 }
