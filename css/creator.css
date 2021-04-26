@@ -151,3 +151,10 @@ body {
 .form .form__buttons .button:first-child {
     margin-right: 25px;
 }
+
+.center__text {
+    margit-bottom: 55px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+}
